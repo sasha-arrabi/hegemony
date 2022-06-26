@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Hegemony</title>
-    <base href="/" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Hegemony - Play</title>
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hegemony is a free-to-play combo PvP and PvE deck building and dice-rolling game, where the objective is to defeat your enemies through a clever combination of diplomacy, trade, and warfare.">
+    <meta name="theme-color" content="#261D21">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/hegemon-192.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/icons/hegemon-192.png" type="image/png">
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Load fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Chewy&family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+    <!-- Font awesome icons -->
+    <script defer src="https://kit.fontawesome.com/23ae30dd29.js" crossorigin="anonymous"></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MGVGLT2S2G"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MGVGLT2S2G');
+    </script>
   </head>
   <body>
     <hegemony-root></hegemony-root>
+    <noscript>Please enable JavaScript to continue using this application.</noscript>
   </body>
 </html>

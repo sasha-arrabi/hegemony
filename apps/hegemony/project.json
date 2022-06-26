@@ -5,7 +5,9 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/hegemony",
         "index": "apps/hegemony/src/index.html",
@@ -13,9 +15,16 @@
         "polyfills": "apps/hegemony/src/polyfills.ts",
         "tsConfig": "apps/hegemony/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["apps/hegemony/src/favicon.ico", "apps/hegemony/src/assets"],
-        "styles": ["apps/hegemony/src/styles.scss"],
-        "scripts": []
+        "assets": [
+          "apps/hegemony/src/assets",
+          "apps/hegemony/src/manifest.webmanifest"
+        ],
+        "styles": [
+          "apps/hegemony/src/styles.scss"
+        ],
+        "scripts": [],
+        "serviceWorker": true,
+        "ngswConfigPath": "apps/hegemony/ngsw-config.json"
       },
       "configurations": {
         "production": {
@@ -71,12 +80,17 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["apps/hegemony/**/*.ts", "apps/hegemony/**/*.html"]
+        "lintFilePatterns": [
+          "apps/hegemony/**/*.ts",
+          "apps/hegemony/**/*.html"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/hegemony"],
+      "outputs": [
+        "coverage/apps/hegemony"
+      ],
       "options": {
         "jestConfig": "apps/hegemony/jest.config.ts",
         "passWithNoTests": true

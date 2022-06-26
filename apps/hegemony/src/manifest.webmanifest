@@ -1,0 +1,77 @@
+{
+  "short_name": "Hegemon",
+  "name": "Hegemon",
+  "description": "Hegemon is a free-to-play combo PvP and PvE deck building and dice-rolling game where you must defeat your enemies through a clever combination of diplomacy, trade, and warfare.",
+  "icons": [
+      {
+          "src": "/images/icons/hegemon.svg",
+          "type": "image/svg+xml",
+          "sizes": "735x735"
+      },
+      {
+          "src": "/images/icons/hegemon.png",
+          "type": "image/png",
+          "sizes": "512x512"
+      },
+      {
+          "src": "/images/icons/hegemon-192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+      }
+  ],
+  "start_url": "/",
+  "background_color": "#ededed",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#261D21",
+  "shortcuts": [
+      {
+          "name": "Play Hegemon",
+          "short_name": "Play",
+          "description": "Start a new game or join an existing one",
+          "url": "/play",
+          "icons": [
+              {
+                  "src": "/images/icons/hegemon.png",
+                  "sizes": "512x512"
+              }
+          ]
+      },
+      {
+          "name": "Hegemon game rules",
+          "short_name": "Rules",
+          "description": "Learn the ins and outs of how to play Hegemon",
+          "url": "/rules",
+          "icons": [
+              {
+                  "src": "/images/icons/hegemon.png",
+                  "sizes": "512x512"
+              }
+          ]
+      },
+      {
+        "name": "Hegemon credits",
+        "short_name": "Credits",
+        "description": "A list of contributers and accreditations",
+        "url": "/credits",
+        "icons": [
+            {
+                "src": "/images/icons/hegemon.png",
+                "sizes": "512x512"
+            }
+        ]
+    }
+  ],
+  "screenshots": [
+      {
+          "src": "/images/screenshots/screenshot1.png",
+          "type": "image/png",
+          "sizes": "540x720"
+      },
+      {
+          "src": "/images/screenshots/screenshot2.jpg",
+          "type": "image/png",
+          "sizes": "540x720"
+      }
+  ]
+}

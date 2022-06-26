@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "hegemony": "apps/hegemony",
+    "hegemony-e2e": "apps/hegemony-e2e"
+  }
+}
